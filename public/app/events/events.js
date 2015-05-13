@@ -239,7 +239,7 @@ $scope.user = {
       data : {'username': currentUser}
     })
     .then(function(resp){
-      var hasVenmoInfo = resp.data.hasVenmoInfo;
+      var hasVenmoInfo = true//resp.data.hasVenmoInfo;
       var disabledEventIds = resp.data.relatedEventIds;
 
       if (!hasVenmoInfo) {
