@@ -3,7 +3,8 @@ angular.module('headcount', [
   'headcount.events',
   'headcount.accounts',
   'headcount.auth',
-  'ngRoute'
+  'ngRoute',
+  'firebase'
 ])
 .config(function($routeProvider, $httpProvider) {
   $routeProvider
